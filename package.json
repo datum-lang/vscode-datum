@@ -1,11 +1,11 @@
 {
-	"name": "datum",
+	"name": "datum-lang",
 	"displayName": "Datum Compiler",
 	"description": "Use the datum compiler for syntax highlighting, compiler warnings and errors, and hovers",
 	"publisher": "datum",
-	"author": "Shivam Balikondwar <shivambalikondwar@icloud.com>",
+	"author": "Phodal Huang",
 	"version": "0.0.1",
-	"repository": "github.com/hyperledger-labs/datum",
+	"repository": "github.com/datum-lang/vscode-datum",
 	"engines": {
 		"vscode": "^1.43.0"
 	},
@@ -34,28 +34,28 @@
 		},
 		"languages": [
 			{
-				"id": "solidity",
+				"id": "datum",
 				"aliases": [
-					"Solidity",
-					"solidity"
+					"Datum",
+					"datum"
 				],
 				"extensions": [
-					".sol"
+					".dt"
 				],
-				"configuration": "./solidity.configuration.json"
+				"configuration": "./datum.configuration.json"
 			}
 		],
 		"snippets": [
 			{
-				"language": "solidity",
-				"path": "./snippets/solidity.json"
+				"language": "datum",
+				"path": "./snippets/datum.json"
 			}
 		],
 		"grammars": [
 			{
-				"language": "solidity",
-				"scopeName": "source.solidity",
-				"path": "./syntaxes/solidity.json"
+				"language": "datum",
+				"scopeName": "source.datum",
+				"path": "./syntaxes/datum.json"
 			}
 		]
 	},
