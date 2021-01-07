@@ -1,0 +1,8 @@
+{
+  ".source.datum": {
+    "hello": {
+      "prefix": "dat",
+      "body": "print(${1:Name})"
+    }
+  }
+}
